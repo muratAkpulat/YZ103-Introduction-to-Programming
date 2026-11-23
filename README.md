@@ -24,44 +24,35 @@ No prior programming experience is required.
 ```text
 .
 ├── README.md
-├── week-01/
-│   ├── theory.pdf
-│   └── lab-notes.pdf
-├── week-02/
-│   ├── theory.pdf
-│   ├── lab-notes.pdf
-│   └── examples/
-├── week-03/
-│   ├── theory.pdf
-│   ├── lab-notes.pdf
-│   └── examples/
-│   ...
-└── week-14/
-    ├── theory.pdf
-    ├── lab-notes.pdf
-    └── examples/
+├── Week 1/
+│   ├── YZ103_Week01_Theory.pdf
+│   └── YZ103_Week01_Lab_Flowcharts.pdf
+├── Week 2/
+│   └── ...
+└── Week 14/
+    └── ...
 ```
 
-Each `week-XX/` folder holds that week's lecture slides, lab notes, exercises, and code examples when applicable. Folders are added as the semester progresses.
+Each `Week N/` folder holds that week's lecture slides (`..._Theory.pdf`) and the lab with worked solutions (`..._Lab_<Topic>.pdf`). Some weeks are lab-only (problem-solving and review weeks). Folders are added as the semester progresses.
 
 ## Weekly Schedule
 
 | Week | Theory | Practice / Lab |
 |---|---|---|
-| 1 | Introduction to Computers and Programming | Introduction to algorithms, pseudocode, and flowcharts |
-| 2 | Algorithm Basics | Algorithm design and problem-solving exercises |
-| 3 | Algorithm Basics | Flowcharts, pseudocode, and algorithm practice |
-| 4 | Input, Processing, and Output | Basic Java programs and console input/output |
-| 5 | Data Types, Variables, Expressions, and Statements | Variables, operators, expressions, and assignments |
-| 6 | Flow Control and Boolean Logic | Boolean expressions and control flow |
-| 7 | Loops and Decision Structures | Conditional statements and iteration |
-| 8 | **Midterm Examination** | — |
-| 9 | Decision Structures | Decision-based programming exercises |
-| 10 | Loops and Iteration | Loop-based programming exercises |
-| 11 | Functions | Methods, parameters, and return values |
-| 12 | Classes | Classes, objects, fields, and methods |
-| 13 | Object-Oriented Programming — Basics | Encapsulation, inheritance, and polymorphism |
-| 14 | Object-Oriented Programming — Design | Object-oriented program design and development |
+| 1 | Introduction to Computers and Programming | Algorithms, pseudocode, and flowcharts |
+| 2 | Algorithm Basics | Flowchart design and problem-solving exercises |
+| 3 | Java Basics: Input, Output, Variables, and Expressions | First Java programs |
+| 4 | Decision Structures | `if`/`else`, `switch`, and the conditional operator |
+| 5 | Loops | `while`, `do-while`, `for`, and nested loops |
+| 6 | Problem-Solving Workshop | Mixed problems and a practice exam |
+| 7 | Review (lab only) | Weeks 1–6 problem bank and a second practice exam |
+| 8 | Strings | String methods and text processing |
+| 9 | Arrays | One-dimensional arrays and an introduction to two-dimensional arrays |
+| 10 | Methods | Parameters, return values, and scope |
+| 11 | Arrays and Strings as Parameters | Passing arrays and Strings to methods, and method overloading |
+| 12 | Recursion | Recursive methods, plus a review of Weeks 6–11 and a practice exam |
+| 13 | Classes and Objects | Fields, constructors, and methods |
+| 14 | Final Review | Mixed problems and a practice exam |
 
 ## Course Approach
 
@@ -71,7 +62,7 @@ The course follows a problem-solving-first approach:
 
 Students first learn to analyze a problem and design a clear solution. They then represent the solution using algorithms, pseudocode, and flowcharts before implementing it in Java.
 
-As the course progresses, students move from basic programming constructs to functions, classes, and object-oriented programming.
+As the course progresses, students move from basic programming constructs to methods, recursion, and an introduction to classes and objects.
 
 ## Assessment
 
